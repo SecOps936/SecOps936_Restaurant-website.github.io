@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Restaurant</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reservation">Reservation</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Delicious food, delivered fresh</h1>
+    <p>Experience the best dining experience in town</p>
+    <a href="#reservation" class="btn">Book a Table</a>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+   <div class="menu-items">
+<div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=400&q=80" alt="Salad" />
+        <h3>Caesar Salad</h3>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=400&q=80" alt="Spaghetti" />
+        <h3>Spaghetti Carbonara</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Serving up love, quality meals, and warm atmosphere since 2005.</p>
+  </section>
+
+  <section id="reservation">
+    <h2>Reserve a Table</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="date" required />
+      <input type="time" required />
+     <select>
+        <option value="">Party Size</option>
+        <option>1</option>
+        <option>2</option>
+        <option>4</option>
+        <option>6+</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="reservation-gallery">
+      <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=200&q=80" alt="dish" />
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=200&q=80" alt="dish" />
+      <img src="https://images.unsplash.com/photo-1544511916-0148ccdeb877?auto=format&fit=crop&w=200&q=80" alt="dish" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: restaurant@gmail.com | Phone: +ccc xxxxxxxx</p>
+    <p>Location: somewhere</p>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> TasteBite Restaurant. All rights reserved.
+  </footer>
